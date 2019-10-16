@@ -1,4 +1,4 @@
-# Image-staganography using bit plane slicing
+# Image-steganography using bit plane slicing
 Staganography refers to the practice of concealing a file, message, image, or video within another file, message, image, or video. Here I have used a text file content to embed in an image without the image being distorted. 
 The algo outkine is mentioned below:
 We know that an RGB image has three planes(Red, Green and Blue) each again having 8 bit planes. And each chracter when converted to ASCII and then to binary, occupies 7 bits. So this 7 bits can be embedded in 7 bit planes of the image, corresponding to each pixel of a plane(R or G or B). The 8th bit plane of the image is kept intact because it contains the highest details. 
